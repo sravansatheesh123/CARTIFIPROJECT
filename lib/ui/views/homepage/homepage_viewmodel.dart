@@ -24,6 +24,22 @@ class HomepageViewModel extends BaseViewModel {
     _navigationService.navigateTo('/search-view');
   }
 
+  gotocat() {
+    _navigationService.navigateTo('/category-view');
+  }
+
+  gotopop() {
+    _navigationService.navigateTo('/popular-view');
+  }
+
+  gotoarvl() {
+    _navigationService.navigateTo('/arrivals-view');
+  }
+
+  gotopro() {
+    _navigationService.navigateTo('/product-view');
+  }
+
   int get currentPageIndex => _currentPageIndex;
 
   void updatePageIndex(int index) {

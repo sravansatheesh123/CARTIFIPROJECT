@@ -10,12 +10,16 @@ import 'package:cartifi/ui/views/homepage/homepage_view.dart';
 import 'package:cartifi/ui/views/favourite/favourite_view.dart';
 import 'package:cartifi/ui/views/shopping/shopping_view.dart';
 import 'package:cartifi/ui/views/account/account_view.dart';
-import 'package:cartifi/ui/views/checkout/checkout_view.dart';
 import 'package:cartifi/ui/views/dashboard/dashboard_view.dart';
 
 import '../ui/dialogs/info_alert/info_alert_dialog.dart';
 import 'package:cartifi/ui/views/search/search_view.dart';
 import 'package:cartifi/ui/views/shirts/shirts_view.dart';
+import 'package:cartifi/ui/views/category/category_view.dart';
+import 'package:cartifi/ui/views/popular/popular_view.dart';
+import 'package:cartifi/ui/views/arrivals/arrivals_view.dart';
+import 'package:cartifi/ui/views/product/product_view.dart';
+import 'package:cartifi/ui/views/checkoutpage/checkoutpage_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -29,10 +33,14 @@ import 'package:cartifi/ui/views/shirts/shirts_view.dart';
     MaterialRoute(page: FavouriteView),
     MaterialRoute(page: ShoppingView),
     MaterialRoute(page: AccountView),
-    MaterialRoute(page: CheckoutView),
     MaterialRoute(page: DashboardView),
     MaterialRoute(page: SearchView),
     MaterialRoute(page: ShirtsView),
+    MaterialRoute(page: CategoryView),
+    MaterialRoute(page: PopularView),
+    MaterialRoute(page: ArrivalsView),
+    MaterialRoute(page: ProductView),
+    MaterialRoute(page: CheckoutpageView),
 // @stacked-route
   ],
   dependencies: [

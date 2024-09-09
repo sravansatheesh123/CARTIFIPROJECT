@@ -209,7 +209,7 @@ class ShoppingView extends StackedView<ShoppingViewModel> {
               ),
               verticalSpaceMedium,
               ElevatedButton(
-                onPressed: viewModel.checkout,
+                onPressed: viewModel.gotocheck,
                 style: ElevatedButton.styleFrom(
                   backgroundColor:
                       const Color(0xff317773), // Button background color

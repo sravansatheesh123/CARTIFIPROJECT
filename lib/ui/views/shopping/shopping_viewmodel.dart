@@ -8,5 +8,9 @@ class ShoppingViewModel extends BaseViewModel {
 
   void checkout() {
     _navigationService.navigateTo('/checkout-view');
+
+  }
+  gotocheck() {
+    _navigationService.navigateTo('/checkoutpage-view');
   }
 }

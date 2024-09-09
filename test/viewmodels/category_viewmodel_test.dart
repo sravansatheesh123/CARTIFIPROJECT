@@ -4,7 +4,7 @@ import 'package:cartifi/app/app.locator.dart';
 import '../helpers/test_helpers.dart';
 
 void main() {
-  group('CheckoutViewModel Tests -', () {
+  group('CategoryViewModel Tests -', () {
     setUp(() => registerServices());
     tearDown(() => locator.reset());
   });

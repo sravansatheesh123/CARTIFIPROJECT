@@ -107,9 +107,7 @@ class HomepageView extends StackedView<HomepageViewModel> {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {
-                        // Add your 'See All' navigation logic here
-                      },
+                      onPressed: viewModel.gotocat,
                       child: const Text(
                         "See All",
                         style: TextStyle(
@@ -179,9 +177,7 @@ class HomepageView extends StackedView<HomepageViewModel> {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {
-                        // Add your 'See All' navigation logic here
-                      },
+                      onPressed: viewModel.gotopop,
                       child: const Text(
                         "See All",
                         style: TextStyle(
@@ -232,9 +228,7 @@ class HomepageView extends StackedView<HomepageViewModel> {
                       ),
                     ),
                     TextButton(
-                      onPressed: () {
-                        // Add your 'See All' navigation logic here
-                      },
+                      onPressed: viewModel.gotoarvl,
                       child: const Text(
                         "See All",
                         style: TextStyle(
