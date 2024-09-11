@@ -20,6 +20,7 @@ import 'package:cartifi/ui/views/popular/popular_view.dart';
 import 'package:cartifi/ui/views/arrivals/arrivals_view.dart';
 import 'package:cartifi/ui/views/product/product_view.dart';
 import 'package:cartifi/ui/views/checkoutpage/checkoutpage_view.dart';
+import 'package:cartifi/ui/views/payment/payment_view.dart';
 // @stacked-import
 
 @StackedApp(
@@ -41,6 +42,7 @@ import 'package:cartifi/ui/views/checkoutpage/checkoutpage_view.dart';
     MaterialRoute(page: ArrivalsView),
     MaterialRoute(page: ProductView),
     MaterialRoute(page: CheckoutpageView),
+    MaterialRoute(page: PaymentView),
 // @stacked-route
   ],
   dependencies: [

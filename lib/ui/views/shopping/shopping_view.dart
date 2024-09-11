@@ -105,7 +105,7 @@ class ShoppingView extends StackedView<ShoppingViewModel> {
                   height: screenHeight * 0.1,
                   width: screenWidth * 0.9, // Adjust width based on screen size
                   decoration: BoxDecoration(
-                    color: Colors.grey[200],
+                    color: Color(0xffFAF9F9),
                     borderRadius: BorderRadius.circular(15),
                   ),
                   child: Padding(

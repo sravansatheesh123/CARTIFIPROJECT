@@ -10,8 +10,9 @@ import 'app.locator.dart';
 
 enum DialogType {
   confirmation,
+  information,
   error,
-  info,
+  warning,
 }
 
 void setupDialogUi() {
